@@ -1,0 +1,180 @@
+body{
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+
+h1{
+    font-size: 5.635rem;
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    color:  #ffffff;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color:  #fff;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.top-container{
+    position: relative;
+}
+
+.bg-img{
+    position: relative;
+}
+
+.typing{
+    position: absolute;
+    z-index:2;
+    margin:75px 425px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Navigation Bar */
+.navbar{
+    color: #fff;
+    padding-bottom: 0.5rem;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-item{
+    padding: 0 12px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Oswald-Extra Light', sans-serif;
+}
+
+
+/* About section */
+.About-section{
+    padding-top: 3rem;
+    margin: auto;
+    width: 60%;
+}
+
+.my-img{
+    height: 250px;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-bottom: 1.5rem;
+}
+
+.Heading{
+    color: rgb(96,154,215);
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 7%;
+    border-width: 7px;
+    margin: 50px auto;
+    border-color: rgb(96,154,200);
+}
+
+/* skills section  */
+#Skills{
+    padding-top: 0.2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: rgb(96,154,215);
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+p{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+.skill-img{
+    height: 150px;
+    padding: 15% auto;
+}
+
+.skill-carousel{
+    padding: 7% 15%;
+}
+
+#skill-carousel{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-indicators li{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+
+/* Education */
+#Education{
+    padding-top: 5%;
+}
+
+.ed-column{
+    padding: 3% 4%;
+}
+
+.card{
+    margin-top: 1%;
+    border-color: rgb(96,154,215);
+}
+
+.card-header{
+    background-color: #fff;
+}
+
+.section-heading{
+    color: rgb(96,154,215);
+}
+
+.edu-img{
+    height: 180px;
+    padding: 3%;
+}
+h4{
+    font-family: 'Ubuntu-Bold', sans-serif;
+    color: rgb(14,42,71);
+}
+h5{
+    font-weight: bold;
+    color: rgb(96,154,215);
+}
+
+/* footer section */
+#footer{
+    background-color: rgb(96,154,215);
+    color: #fff;  
+    padding-bottom: 2rem;
+}
+
+.footer-link{
+    color: rgb(14,42,71);
+    font-size: 2rem;
+    padding: 1%;
+}
+
+.footer-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
